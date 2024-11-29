@@ -1,1 +1,4 @@
+type: Concept Art
+preset: Game Concept Cartoon
+
 Create a character sprite sheet. The character is for a 2d pixel art game. frames are needed to generate animated movements on all directions. she is a happy pacifist girl, dressed in used clothes, wearing a hipster head. Her clothes are suitable for warm autumn weather. Her over all looks gives an impression that she loves nature and is open to new adventures. show at least one front and one rear frame. Show several frames during walking. Ensure she is wearing the same clothes in every frame. show the full body and do not overlap the frames.. She shall have a backpack, but she not carry other items in her hands
