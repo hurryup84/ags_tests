@@ -4174,6 +4174,36 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
+                      <Sprite Slot="245" Width="22" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/nicole/v4/source/nicole.png</FileName>
+                          <OffsetX>110</OffsetX>
+                          <OffsetY>100</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>22</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="246" Width="22" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/nicole/v4/source/nicole.png</FileName>
+                          <OffsetX>132</OffsetX>
+                          <OffsetY>100</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>22</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
                     </Sprites>
                   </SpriteFolder>
                 </SubFolders>
@@ -7437,14 +7467,14 @@ stop
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>242</Image>
+                    <Image>245</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>1</ID>
-                    <Image>243</Image>
+                    <Image>246</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
