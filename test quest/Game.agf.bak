@@ -2600,8 +2600,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>271</StartX>
-            <StartY>141</StartY>
+            <StartX>340</StartX>
+            <StartY>163</StartY>
             <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -3951,13 +3951,13 @@ stop
                   <SpriteFolder Name="walk_l">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="239" Width="73" Height="161" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="231" Width="23" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>images/nicole/v4/source/nicole_700.png</FileName>
-                          <OffsetX>584</OffsetX>
+                          <FileName>images/nicole/v4/source/nicole.png</FileName>
+                          <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>161</ImportHeight>
-                          <ImportWidth>73</ImportWidth>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
                           <ImportAsTile>True</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -3966,13 +3966,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="233" Width="73" Height="161" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="232" Width="23" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>images/nicole/v4/source/nicole_700.png</FileName>
-                          <OffsetX>146</OffsetX>
+                          <FileName>images/nicole/v4/source/nicole.png</FileName>
+                          <OffsetX>23</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>161</ImportHeight>
-                          <ImportWidth>73</ImportWidth>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
                           <ImportAsTile>True</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -3981,13 +3981,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="234" Width="73" Height="161" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="233" Width="23" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>images/nicole/v4/source/nicole_700.png</FileName>
-                          <OffsetX>219</OffsetX>
+                          <FileName>images/nicole/v4/source/nicole.png</FileName>
+                          <OffsetX>46</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>161</ImportHeight>
-                          <ImportWidth>73</ImportWidth>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
                           <ImportAsTile>True</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -3996,13 +3996,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="235" Width="73" Height="161" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="234" Width="23" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>images/nicole/v4/source/nicole_700.png</FileName>
-                          <OffsetX>292</OffsetX>
+                          <FileName>images/nicole/v4/source/nicole.png</FileName>
+                          <OffsetX>69</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>161</ImportHeight>
-                          <ImportWidth>73</ImportWidth>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
                           <ImportAsTile>True</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -4011,28 +4011,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="236" Width="73" Height="161" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="235" Width="23" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>images/nicole/v4/source/nicole_700.png</FileName>
-                          <OffsetX>365</OffsetX>
+                          <FileName>images/nicole/v4/source/nicole.png</FileName>
+                          <OffsetX>92</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>161</ImportHeight>
-                          <ImportWidth>73</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>False</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                      <Sprite Slot="237" Width="73" Height="161" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>images/nicole/v4/source/nicole_700.png</FileName>
-                          <OffsetX>438</OffsetX>
-                          <OffsetY>0</OffsetY>
-                          <ImportHeight>161</ImportHeight>
-                          <ImportWidth>73</ImportWidth>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
                           <ImportAsTile>True</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -4046,13 +4031,13 @@ stop
                   <SpriteFolder Name="walk_r">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="240" Width="73" Height="161" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="236" Width="22" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>images/nicole/v4/source/nicole_700.png</FileName>
-                          <OffsetX>73</OffsetX>
-                          <OffsetY>161</OffsetY>
-                          <ImportHeight>161</ImportHeight>
-                          <ImportWidth>73</ImportWidth>
+                          <FileName>images/nicole/v4/source/nicole.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>50</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>22</ImportWidth>
                           <ImportAsTile>True</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -4061,13 +4046,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="241" Width="73" Height="161" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="237" Width="22" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>images/nicole/v4/source/nicole_700.png</FileName>
-                          <OffsetX>146</OffsetX>
-                          <OffsetY>161</OffsetY>
-                          <ImportHeight>161</ImportHeight>
-                          <ImportWidth>73</ImportWidth>
+                          <FileName>images/nicole/v4/source/nicole.png</FileName>
+                          <OffsetX>22</OffsetX>
+                          <OffsetY>50</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>22</ImportWidth>
                           <ImportAsTile>True</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -4076,13 +4061,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="243" Width="73" Height="161" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="238" Width="22" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>images/nicole/v4/source/nicole_700.png</FileName>
-                          <OffsetX>292</OffsetX>
-                          <OffsetY>161</OffsetY>
-                          <ImportHeight>161</ImportHeight>
-                          <ImportWidth>73</ImportWidth>
+                          <FileName>images/nicole/v4/source/nicole.png</FileName>
+                          <OffsetX>44</OffsetX>
+                          <OffsetY>50</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>22</ImportWidth>
                           <ImportAsTile>True</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -4091,13 +4076,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="244" Width="73" Height="161" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="239" Width="22" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>images/nicole/v4/source/nicole_700.png</FileName>
-                          <OffsetX>365</OffsetX>
-                          <OffsetY>161</OffsetY>
-                          <ImportHeight>161</ImportHeight>
-                          <ImportWidth>73</ImportWidth>
+                          <FileName>images/nicole/v4/source/nicole.png</FileName>
+                          <OffsetX>66</OffsetX>
+                          <OffsetY>50</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>22</ImportWidth>
                           <ImportAsTile>True</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -4106,13 +4091,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="245" Width="73" Height="161" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="240" Width="22" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>images/nicole/v4/source/nicole_700.png</FileName>
-                          <OffsetX>438</OffsetX>
-                          <OffsetY>161</OffsetY>
-                          <ImportHeight>161</ImportHeight>
-                          <ImportWidth>73</ImportWidth>
+                          <FileName>images/nicole/v4/source/nicole.png</FileName>
+                          <OffsetX>88</OffsetX>
+                          <OffsetY>50</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>22</ImportWidth>
                           <ImportAsTile>True</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -4121,13 +4106,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="247" Width="73" Height="161" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="241" Width="22" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>images/nicole/v4/source/nicole_700.png</FileName>
-                          <OffsetX>584</OffsetX>
-                          <OffsetY>161</OffsetY>
-                          <ImportHeight>161</ImportHeight>
-                          <ImportWidth>73</ImportWidth>
+                          <FileName>images/nicole/v4/source/nicole.png</FileName>
+                          <OffsetX>110</OffsetX>
+                          <OffsetY>50</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>22</ImportWidth>
                           <ImportAsTile>True</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -4141,28 +4126,13 @@ stop
                   <SpriteFolder Name="stand">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="238" Width="73" Height="161" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="242" Width="22" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>images/nicole/v4/source/nicole_700.png</FileName>
-                          <OffsetX>511</OffsetX>
-                          <OffsetY>0</OffsetY>
-                          <ImportHeight>161</ImportHeight>
-                          <ImportWidth>73</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>False</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                      <Sprite Slot="231" Width="73" Height="161" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>images/nicole/v4/source/nicole_700.png</FileName>
+                          <FileName>images/nicole/v4/source/nicole.png</FileName>
                           <OffsetX>0</OffsetX>
-                          <OffsetY>0</OffsetY>
-                          <ImportHeight>161</ImportHeight>
-                          <ImportWidth>73</ImportWidth>
+                          <OffsetY>100</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>22</ImportWidth>
                           <ImportAsTile>True</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -4171,28 +4141,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="242" Width="73" Height="161" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="243" Width="22" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>images/nicole/v4/source/nicole_700.png</FileName>
-                          <OffsetX>219</OffsetX>
-                          <OffsetY>161</OffsetY>
-                          <ImportHeight>161</ImportHeight>
-                          <ImportWidth>73</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>False</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                      <Sprite Slot="246" Width="73" Height="161" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>images/nicole/v4/source/nicole_700.png</FileName>
-                          <OffsetX>511</OffsetX>
-                          <OffsetY>161</OffsetY>
-                          <ImportHeight>161</ImportHeight>
-                          <ImportWidth>73</ImportWidth>
+                          <FileName>images/nicole/v4/source/nicole.png</FileName>
+                          <OffsetX>22</OffsetX>
+                          <OffsetY>100</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>22</ImportWidth>
                           <ImportAsTile>True</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -4202,279 +4157,9 @@ stop
                         </Source>
                       </Sprite>
                     </Sprites>
-                  </SpriteFolder>
-                  <SpriteFolder Name="walk_l_350">
-                    <SubFolders />
-                    <Sprites>
-                      <Sprite Slot="252" Width="37" Height="81" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>images/nicole/v4/source/nicole_350.png</FileName>
-                          <OffsetX>148</OffsetX>
-                          <OffsetY>0</OffsetY>
-                          <ImportHeight>81</ImportHeight>
-                          <ImportWidth>37</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>False</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                      <Sprite Slot="254" Width="37" Height="81" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>images/nicole/v4/source/nicole_350.png</FileName>
-                          <OffsetX>222</OffsetX>
-                          <OffsetY>0</OffsetY>
-                          <ImportHeight>81</ImportHeight>
-                          <ImportWidth>37</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>False</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                      <Sprite Slot="253" Width="37" Height="81" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>images/nicole/v4/source/nicole_350.png</FileName>
-                          <OffsetX>185</OffsetX>
-                          <OffsetY>0</OffsetY>
-                          <ImportHeight>81</ImportHeight>
-                          <ImportWidth>37</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>False</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                      <Sprite Slot="256" Width="37" Height="81" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>images/nicole/v4/source/nicole_350.png</FileName>
-                          <OffsetX>296</OffsetX>
-                          <OffsetY>0</OffsetY>
-                          <ImportHeight>81</ImportHeight>
-                          <ImportWidth>37</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>False</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                    </Sprites>
-                  </SpriteFolder>
-                  <SpriteFolder Name="walk_r_350">
-                    <SubFolders />
-                    <Sprites>
-                      <Sprite Slot="262" Width="37" Height="81" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>images/nicole/v4/source/nicole_350.png</FileName>
-                          <OffsetX>221</OffsetX>
-                          <OffsetY>80</OffsetY>
-                          <ImportHeight>81</ImportHeight>
-                          <ImportWidth>37</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>False</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                      <Sprite Slot="261" Width="37" Height="81" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>images/nicole/v4/source/nicole_350.png</FileName>
-                          <OffsetX>184</OffsetX>
-                          <OffsetY>80</OffsetY>
-                          <ImportHeight>81</ImportHeight>
-                          <ImportWidth>37</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>False</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                      <Sprite Slot="264" Width="37" Height="81" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>images/nicole/v4/source/nicole_350.png</FileName>
-                          <OffsetX>295</OffsetX>
-                          <OffsetY>80</OffsetY>
-                          <ImportHeight>81</ImportHeight>
-                          <ImportWidth>37</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>False</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                      <Sprite Slot="260" Width="37" Height="81" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>images/nicole/v4/source/nicole_350.png</FileName>
-                          <OffsetX>147</OffsetX>
-                          <OffsetY>80</OffsetY>
-                          <ImportHeight>81</ImportHeight>
-                          <ImportWidth>37</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>False</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                    </Sprites>
-                  </SpriteFolder>
-                  <SpriteFolder Name="stand_350">
-                    <SubFolders />
-                    <Sprites />
                   </SpriteFolder>
                 </SubFolders>
-                <Sprites>
-                  <Sprite Slot="248" Width="37" Height="81" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>images/nicole/v4/source/nicole_350.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>81</ImportHeight>
-                      <ImportWidth>37</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="249" Width="37" Height="81" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>images/nicole/v4/source/nicole_350.png</FileName>
-                      <OffsetX>37</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>81</ImportHeight>
-                      <ImportWidth>37</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="250" Width="37" Height="81" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>images/nicole/v4/source/nicole_350.png</FileName>
-                      <OffsetX>74</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>81</ImportHeight>
-                      <ImportWidth>37</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="251" Width="37" Height="81" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>images/nicole/v4/source/nicole_350.png</FileName>
-                      <OffsetX>111</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>81</ImportHeight>
-                      <ImportWidth>37</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="255" Width="37" Height="81" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>images/nicole/v4/source/nicole_350.png</FileName>
-                      <OffsetX>259</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>81</ImportHeight>
-                      <ImportWidth>37</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="257" Width="37" Height="81" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>images/nicole/v4/source/nicole_350.png</FileName>
-                      <OffsetX>36</OffsetX>
-                      <OffsetY>80</OffsetY>
-                      <ImportHeight>81</ImportHeight>
-                      <ImportWidth>37</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="258" Width="37" Height="81" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>images/nicole/v4/source/nicole_350.png</FileName>
-                      <OffsetX>73</OffsetX>
-                      <OffsetY>80</OffsetY>
-                      <ImportHeight>81</ImportHeight>
-                      <ImportWidth>37</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="259" Width="37" Height="81" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>images/nicole/v4/source/nicole_350.png</FileName>
-                      <OffsetX>110</OffsetX>
-                      <OffsetY>80</OffsetY>
-                      <ImportHeight>81</ImportHeight>
-                      <ImportWidth>37</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="263" Width="37" Height="81" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>images/nicole/v4/source/nicole_350.png</FileName>
-                      <OffsetX>258</OffsetX>
-                      <OffsetY>80</OffsetY>
-                      <ImportHeight>81</ImportHeight>
-                      <ImportWidth>37</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                </Sprites>
+                <Sprites />
               </SpriteFolder>
             </SubFolders>
             <Sprites>
@@ -7709,7 +7394,7 @@ stop
           </View>
           <View>
             <ID>4</ID>
-            <Name>vNicole_Walk</Name>
+            <Name>vNicole_walk</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -7719,21 +7404,14 @@ stop
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>250</Image>
+                    <Image>242</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>1</ID>
-                    <Image>251</Image>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <Delay>0</Delay>
-                    <Flipped>False</Flipped>
-                    <ID>2</ID>
-                    <Image>263</Image>
+                    <Image>243</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -7746,28 +7424,35 @@ stop
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>252</Image>
+                    <Image>231</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>1</ID>
-                    <Image>254</Image>
+                    <Image>232</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>2</ID>
-                    <Image>253</Image>
+                    <Image>233</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>3</ID>
-                    <Image>256</Image>
+                    <Image>234</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>4</ID>
+                    <Image>235</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -7780,21 +7465,42 @@ stop
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>262</Image>
+                    <Image>236</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>1</ID>
-                    <Image>264</Image>
+                    <Image>237</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>2</ID>
-                    <Image>260</Image>
+                    <Image>238</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>239</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>4</ID>
+                    <Image>240</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>5</ID>
+                    <Image>241</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -7802,29 +7508,7 @@ stop
               <Loop>
                 <ID>3</ID>
                 <RunNextLoop>False</RunNextLoop>
-                <Frames>
-                  <ViewFrame>
-                    <Delay>0</Delay>
-                    <Flipped>False</Flipped>
-                    <ID>0</ID>
-                    <Image>262</Image>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <Delay>0</Delay>
-                    <Flipped>False</Flipped>
-                    <ID>1</ID>
-                    <Image>264</Image>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <Delay>0</Delay>
-                    <Flipped>False</Flipped>
-                    <ID>2</ID>
-                    <Image>260</Image>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                </Frames>
+                <Frames />
               </Loop>
             </Loops>
           </View>
