@@ -3,3 +3,5 @@ test quest/_OpenInEditor.lock
 test quest/backup_acsprset.spr
 test quest/Game.agf.bak
 test quest/warnings.log
+test quest/acsprset.spr
+test quest/sprindex.dat
