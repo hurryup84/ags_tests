@@ -706,6 +706,10 @@
             <Description xml:space="preserve">Hausboot Innen</Description>
             <Number>4</Number>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Description>Bahnsteig</Description>
+            <Number>5</Number>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -715,8 +719,8 @@
         <GUIs>
           <GUIMain>
             <NormalGUI>
-              <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>51</BackgroundImage>
+              <BackgroundColor>16</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
               <BorderColor>0</BorderColor>
               <Clickable>True</Clickable>
               <Height>42</Height>
@@ -1019,7 +1023,7 @@
                 <Left>176</Left>
                 <Locked>False</Locked>
                 <Name>invMain</Name>
-                <Top>0</Top>
+                <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>144</Width>
@@ -2716,7 +2720,7 @@
             <SpeechView>5</SpeechView>
             <StartX>333</StartX>
             <StartY>161</StartY>
-            <StartingRoom>3</StartingRoom>
+            <StartingRoom>5</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -2728,6 +2732,48 @@
               <Event Index="2" />
               <Event Index="3" />
               <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <AnimationDelay>4</AnimationDelay>
+            <BlinkingView>0</BlinkingView>
+            <Clickable>True</Clickable>
+            <DiagonalLoops>True</DiagonalLoops>
+            <ID>3</ID>
+            <IdleAnimationDelay>4</IdleAnimationDelay>
+            <IdleDelay>20</IdleDelay>
+            <IdleView>0</IdleView>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <NormalView>6</NormalView>
+            <Properties />
+            <RealName>Paul</RealName>
+            <ScriptName>cPaul</ScriptName>
+            <Solid>True</Solid>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <SpeechView>7</SpeechView>
+            <StartX>395</StartX>
+            <StartY>250</StartY>
+            <StartingRoom>5</StartingRoom>
+            <ThinkingView>0</ThinkingView>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4">cPaul_AnyClick</Event>
               <Event Index="5" />
               <Event Index="6" />
               <Event Index="7" />
@@ -2818,6 +2864,25 @@ stop
                 <Say>True</Say>
                 <Show>True</Show>
                 <Text xml:space="preserve">Take care.</Text>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>1</ID>
+            <Name>dDialog2</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+return
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text>hello</Text>
               </DialogOption>
             </DialogOptions>
           </Dialog>
@@ -4515,6 +4580,56 @@ stop
                   </SpriteFolder>
                 </SubFolders>
                 <Sprites />
+              </SpriteFolder>
+              <SpriteFolder Name="bahnhofstyp">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="271" Width="44" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>images/characters/bahnhofstyp/bahnhofstyp.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>100</ImportHeight>
+                      <ImportWidth>44</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="272" Width="44" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>images/characters/bahnhofstyp/bahnhofstyp.png</FileName>
+                      <OffsetX>44</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>100</ImportHeight>
+                      <ImportWidth>44</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="273" Width="44" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>images/characters/bahnhofstyp/bahnhofstyp.png</FileName>
+                      <OffsetX>88</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>100</ImportHeight>
+                      <ImportWidth>44</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
               </SpriteFolder>
             </SubFolders>
             <Sprites>
@@ -8137,6 +8252,82 @@ stop
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>6</ID>
+            <Name>vBahnhofstyp_Stand</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>271</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>7</ID>
+            <Name>vBahnhofstyp_Talk</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>272</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>273</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
@@ -8315,7 +8506,7 @@ stop
                 <ScriptName>aMusic_TrashQuest_TitleTrack</ScriptName>
                 <SourceFileName>Music/TrashQuest-TitleTrack.mp3</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-12-04 18:07:32Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-03 12:13:00Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -8328,7 +8519,7 @@ stop
                 <ScriptName>aMusic_TrashQuest_AmbientHausboot</ScriptName>
                 <SourceFileName>Music/TrashQuest-AmbientHausboot.mp3</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-12-01 19:11:38Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-03 12:13:00Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -8341,7 +8532,7 @@ stop
                 <ScriptName>aMusic_TrashQuest_TheMorning</ScriptName>
                 <SourceFileName>Music/TrashQuest-TheMorning.mp3</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-12-02 12:01:56Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-03 12:13:00Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -8366,7 +8557,7 @@ stop
                 <ScriptName>aSteg</ScriptName>
                 <SourceFileName>Sound/Steg.wav</SourceFileName>
                 <Type>3</Type>
-                <FileLastModifiedDate>2024-12-02 17:24:42Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-03 12:13:00Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -8379,7 +8570,7 @@ stop
                 <ScriptName>aTrash</ScriptName>
                 <SourceFileName>Sound/Trash.wav</SourceFileName>
                 <Type>3</Type>
-                <FileLastModifiedDate>2024-12-02 17:21:21Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-03 12:13:00Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -8392,7 +8583,7 @@ stop
                 <ScriptName>aDrawer</ScriptName>
                 <SourceFileName>Sound/Drawer.mp3</SourceFileName>
                 <Type>3</Type>
-                <FileLastModifiedDate>2024-12-02 17:25:29Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-03 12:13:00Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -8405,7 +8596,7 @@ stop
                 <ScriptName>aItem</ScriptName>
                 <SourceFileName>Sound/Item.mp3</SourceFileName>
                 <Type>3</Type>
-                <FileLastModifiedDate>2024-12-01 16:53:59Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-03 12:13:00Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -8418,7 +8609,7 @@ stop
                 <ScriptName>aDoorOpen</ScriptName>
                 <SourceFileName>Sound/DoorOpen.mp3</SourceFileName>
                 <Type>3</Type>
-                <FileLastModifiedDate>2024-12-02 17:17:40Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-03 12:13:00Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -8431,7 +8622,7 @@ stop
                 <ScriptName>aDoorClose</ScriptName>
                 <SourceFileName>Sound/DoorClose.mp3</SourceFileName>
                 <Type>3</Type>
-                <FileLastModifiedDate>2024-12-01 16:59:12Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-03 12:13:00Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -8444,7 +8635,7 @@ stop
                 <ScriptName>aStepSand</ScriptName>
                 <SourceFileName>Sound/StepSand.mp3</SourceFileName>
                 <Type>3</Type>
-                <FileLastModifiedDate>2024-12-03 21:49:02Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-03 12:13:00Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -8457,7 +8648,7 @@ stop
                 <ScriptName>aStepWood</ScriptName>
                 <SourceFileName>Sound/StepWood.mp3</SourceFileName>
                 <Type>3</Type>
-                <FileLastModifiedDate>2024-12-02 17:16:37Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-03 12:13:00Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -8470,7 +8661,7 @@ stop
                 <ScriptName>aPaper</ScriptName>
                 <SourceFileName>Sound/Paper.mp3</SourceFileName>
                 <Type>3</Type>
-                <FileLastModifiedDate>2024-12-02 18:02:37Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-03 12:13:00Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -8483,7 +8674,7 @@ stop
                 <ScriptName>aPaperRip</ScriptName>
                 <SourceFileName>Sound/PaperRip.mp3</SourceFileName>
                 <Type>3</Type>
-                <FileLastModifiedDate>2024-12-02 18:03:48Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-03 12:13:00Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -8521,7 +8712,7 @@ stop
                 <ScriptName>aAmbientRiver</ScriptName>
                 <SourceFileName>Sound/AmbientRiver.mp3</SourceFileName>
                 <Type>1</Type>
-                <FileLastModifiedDate>2024-12-01 19:28:34Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-03 12:13:00Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -8534,7 +8725,7 @@ stop
                 <ScriptName>aAmbientInBoot</ScriptName>
                 <SourceFileName>Sound/AmbientInBoot.mp3</SourceFileName>
                 <Type>1</Type>
-                <FileLastModifiedDate>2024-12-02 18:18:05Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-03 12:13:00Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
