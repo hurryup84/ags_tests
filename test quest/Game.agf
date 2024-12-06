@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>19</AudioIndexer>
+      <AudioIndexer>21</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets>Windows</BuildTargets>
@@ -687,6 +687,10 @@
         <SubFolders />
         <UnloadedRooms>
           <UnloadedRoom>
+            <Description>Waldweg</Description>
+            <Number>0</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
             <Description />
             <Number>1</Number>
           </UnloadedRoom>
@@ -1285,7 +1289,7 @@
                 <OnChange>btnOptions_OnSliderChange</OnChange>
                 <Top>69</Top>
                 <Translated>True</Translated>
-                <Value>80</Value>
+                <Value>100</Value>
                 <Visible>True</Visible>
                 <Width>120</Width>
                 <ZOrder>7</ZOrder>
@@ -1324,7 +1328,7 @@
                 <OnChange>btnOptions_OnSliderChange</OnChange>
                 <Top>100</Top>
                 <Translated>True</Translated>
-                <Value>90</Value>
+                <Value>100</Value>
                 <Visible>True</Visible>
                 <Width>120</Width>
                 <ZOrder>9</ZOrder>
@@ -2626,9 +2630,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>65535</SpeechColor>
             <SpeechView>2</SpeechView>
-            <StartX>160</StartX>
-            <StartY>150</StartY>
-            <StartingRoom>1</StartingRoom>
+            <StartX>204</StartX>
+            <StartY>228</StartY>
+            <StartingRoom>0</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -2732,7 +2736,7 @@
         </Characters>
       </CharacterFolder>
     </Characters>
-    <PlayerCharacter>2</PlayerCharacter>
+    <PlayerCharacter>0</PlayerCharacter>
     <Dialogs>
       <DialogFolder Name="Main">
         <SubFolders />
@@ -3285,14 +3289,14 @@ stop
     <GlobalVariables>
       <Variables>
         <GlobalVariable>
-          <DefaultValue>100</DefaultValue>
-          <Name>AmbientSoundVolume</Name>
-          <Type>int</Type>
+          <DefaultValue />
+          <Name>ambientSFX</Name>
+          <Type>AudioChannel*</Type>
         </GlobalVariable>
         <GlobalVariable>
-          <DefaultValue>100</DefaultValue>
-          <Name>AmbientMusicVolume</Name>
-          <Type>int</Type>
+          <DefaultValue />
+          <Name>music</Name>
+          <Type>AudioChannel*</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -8311,7 +8315,7 @@ stop
                 <ScriptName>aMusic_TrashQuest_TitleTrack</ScriptName>
                 <SourceFileName>Music/TrashQuest-TitleTrack.mp3</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-12-01 13:53:23Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-04 18:07:32Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -8345,7 +8349,7 @@ stop
               <DefaultPriority>Inherit</DefaultPriority>
               <DefaultRepeat>True</DefaultRepeat>
               <DefaultType>2</DefaultType>
-              <DefaultVolume>50</DefaultVolume>
+              <DefaultVolume>-1</DefaultVolume>
             </AudioClipFolder>
           </AudioClipFolder>
           <AudioClipFolder Name="Sounds">
@@ -8440,7 +8444,7 @@ stop
                 <ScriptName>aStepSand</ScriptName>
                 <SourceFileName>Sound/StepSand.mp3</SourceFileName>
                 <Type>3</Type>
-                <FileLastModifiedDate>2024-12-02 17:15:33Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-03 21:49:02Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -8481,13 +8485,26 @@ stop
                 <Type>3</Type>
                 <FileLastModifiedDate>2024-12-02 18:03:48Z</FileLastModifiedDate>
               </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>16</ID>
+                <Index>21</Index>
+                <ScriptName>aEarthquake</ScriptName>
+                <SourceFileName>Sound/Earthquake.mp3</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-12-03 21:03:49Z</FileLastModifiedDate>
+              </AudioClip>
             </AudioClips>
             <AudioClipFolder>
               <DefaultBundlingType>InSeparateVOX</DefaultBundlingType>
               <DefaultPriority>Inherit</DefaultPriority>
               <DefaultRepeat>False</DefaultRepeat>
               <DefaultType>3</DefaultType>
-              <DefaultVolume>100</DefaultVolume>
+              <DefaultVolume>-1</DefaultVolume>
             </AudioClipFolder>
           </AudioClipFolder>
           <AudioClipFolder Name="Ambient">
@@ -8519,13 +8536,26 @@ stop
                 <Type>1</Type>
                 <FileLastModifiedDate>2024-12-02 18:18:05Z</FileLastModifiedDate>
               </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>15</ID>
+                <Index>20</Index>
+                <ScriptName>aAmbientIntro</ScriptName>
+                <SourceFileName>Sound/AmbientIntro.mp3</SourceFileName>
+                <Type>1</Type>
+                <FileLastModifiedDate>2024-12-04 17:49:40Z</FileLastModifiedDate>
+              </AudioClip>
             </AudioClips>
             <AudioClipFolder>
               <DefaultBundlingType>InSeparateVOX</DefaultBundlingType>
               <DefaultPriority>Inherit</DefaultPriority>
               <DefaultRepeat>Inherit</DefaultRepeat>
               <DefaultType>1</DefaultType>
-              <DefaultVolume>25</DefaultVolume>
+              <DefaultVolume>-1</DefaultVolume>
             </AudioClipFolder>
           </AudioClipFolder>
         </SubFolders>
@@ -8542,7 +8572,7 @@ stop
     <AudioClipTypes>
       <AudioClipType>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
-        <CrossfadeClips>FastFade</CrossfadeClips>
+        <CrossfadeClips>SlowFade</CrossfadeClips>
         <MaxChannels>1</MaxChannels>
         <Name>AmbientSound</Name>
         <TypeID>1</TypeID>
