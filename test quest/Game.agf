@@ -2720,7 +2720,7 @@
             <SpeechView>5</SpeechView>
             <StartX>333</StartX>
             <StartY>161</StartY>
-            <StartingRoom>5</StartingRoom>
+            <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
