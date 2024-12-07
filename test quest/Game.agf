@@ -711,7 +711,7 @@
             <Number>5</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description>Waldweg2</Description>
             <Number>6</Number>
           </UnloadedRoom>
         </UnloadedRooms>
