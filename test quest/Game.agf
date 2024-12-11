@@ -2438,7 +2438,7 @@
             <ID>7</ID>
             <Image>269</Image>
             <Name>iBahncard</Name>
-            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
             <Properties />
             <Interactions>
               <Event Index="0">iBahncard_OtherClick</Event>
@@ -2726,9 +2726,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>5</SpeechView>
-            <StartX>333</StartX>
-            <StartY>161</StartY>
-            <StartingRoom>3</StartingRoom>
+            <StartX>134</StartX>
+            <StartY>105</StartY>
+            <StartingRoom>7</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -2790,7 +2790,7 @@
         </Characters>
       </CharacterFolder>
     </Characters>
-    <PlayerCharacter>0</PlayerCharacter>
+    <PlayerCharacter>2</PlayerCharacter>
     <Dialogs>
       <DialogFolder Name="Main">
         <SubFolders />
@@ -4478,51 +4478,6 @@ return
                         <Source>
                           <FileName>images/characters/nicola/nicola.png</FileName>
                           <OffsetX>44</OffsetX>
-                          <OffsetY>0</OffsetY>
-                          <ImportHeight>100</ImportHeight>
-                          <ImportWidth>44</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>False</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                      <Sprite Slot="258" Width="44" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>images/characters/nicola/nicola.png</FileName>
-                          <OffsetX>88</OffsetX>
-                          <OffsetY>0</OffsetY>
-                          <ImportHeight>100</ImportHeight>
-                          <ImportWidth>44</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>False</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                      <Sprite Slot="259" Width="44" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>images/characters/nicola/nicola.png</FileName>
-                          <OffsetX>132</OffsetX>
-                          <OffsetY>0</OffsetY>
-                          <ImportHeight>100</ImportHeight>
-                          <ImportWidth>44</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>False</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                      <Sprite Slot="260" Width="44" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>images/characters/nicola/nicola.png</FileName>
-                          <OffsetX>176</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
                           <ImportWidth>44</ImportWidth>
@@ -7641,6 +7596,36 @@ return
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
+                      <Sprite Slot="259" Width="21" Height="76" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/rooms/bahnhof/train_abteil.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>76</ImportHeight>
+                          <ImportWidth>21</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="260" Width="89" Height="107" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/rooms/bahnhof/train_front.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>107</ImportHeight>
+                          <ImportWidth>89</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
                     </Sprites>
                   </SpriteFolder>
                 </SubFolders>
@@ -8254,14 +8239,14 @@ return
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>2</ID>
-                    <Image>259</Image>
+                    <Image>254</Image>
                     <Sound>13</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>3</ID>
-                    <Image>260</Image>
+                    <Image>257</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -8356,14 +8341,14 @@ return
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>2</ID>
-                    <Image>259</Image>
+                    <Image>254</Image>
                     <Sound>13</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>3</ID>
-                    <Image>260</Image>
+                    <Image>257</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
