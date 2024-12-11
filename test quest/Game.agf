@@ -718,6 +718,14 @@
             <Description>Bahnhof</Description>
             <Number>7</Number>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Description>ZugAbteil</Description>
+            <Number>8</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description>zugTechnik</Description>
+            <Number>9</Number>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
