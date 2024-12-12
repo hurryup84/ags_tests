@@ -2452,8 +2452,26 @@
               <Event Index="0">iBahncard_OtherClick</Event>
               <Event Index="1">iBahncard_OtherClick</Event>
               <Event Index="2">iBahncard_OtherClick</Event>
-              <Event Index="3">iBahncard_OtherClick</Event>
+              <Event Index="3">iBahncard_UseInv</Event>
               <Event Index="4">iBahncard_OtherClick</Event>
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>0</CursorImage>
+            <Description>Stift</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>8</ID>
+            <Image>279</Image>
+            <Name>iStift</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
             </Interactions>
           </InventoryItem>
         </InventoryItems>
@@ -7360,6 +7378,36 @@ return
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
+              <Sprite Slot="279" Width="36" Height="21" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/items/iStift.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>21</ImportHeight>
+                  <ImportWidth>36</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="280" Width="36" Height="21" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/items/iBahncardSign.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>21</ImportHeight>
+                  <ImportWidth>36</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="objects">
@@ -7451,6 +7499,21 @@ return
                           <OffsetY>0</OffsetY>
                           <ImportHeight>66</ImportHeight>
                           <ImportWidth>32</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="258" Width="8" Height="8" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/rooms/hausboot_innen/stift.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>8</ImportHeight>
+                          <ImportWidth>8</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
