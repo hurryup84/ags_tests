@@ -2446,7 +2446,7 @@
             <ID>7</ID>
             <Image>269</Image>
             <Name>iBahncard</Name>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
               <Event Index="0">iBahncard_OtherClick</Event>
