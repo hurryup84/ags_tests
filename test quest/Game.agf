@@ -2752,9 +2752,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>5</SpeechView>
-            <StartX>134</StartX>
-            <StartY>105</StartY>
-            <StartingRoom>7</StartingRoom>
+            <StartX>161</StartX>
+            <StartY>215</StartY>
+            <StartingRoom>8</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -3396,6 +3396,16 @@ return
           <DefaultValue />
           <Name>music</Name>
           <Type>AudioChannel*</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>281</DefaultValue>
+          <Name>schieber</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>schieber_wert</Name>
+          <Type>int</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -7698,6 +7708,256 @@ return
                         </Source>
                       </Sprite>
                     </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="zugTechnik">
+                    <SubFolders>
+                      <SpriteFolder Name="schieber">
+                        <SubFolders />
+                        <Sprites>
+                          <Sprite Slot="281" Width="31" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>images/rooms/zugTechnik/schieber.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>65</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
+                              <ImportAsTile>True</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="282" Width="31" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>images/rooms/zugTechnik/schieber.png</FileName>
+                              <OffsetX>31</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>65</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
+                              <ImportAsTile>True</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="283" Width="31" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>images/rooms/zugTechnik/schieber.png</FileName>
+                              <OffsetX>62</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>65</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
+                              <ImportAsTile>True</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="284" Width="31" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>images/rooms/zugTechnik/schieber.png</FileName>
+                              <OffsetX>93</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>65</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
+                              <ImportAsTile>True</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="285" Width="31" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>images/rooms/zugTechnik/schieber.png</FileName>
+                              <OffsetX>124</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>65</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
+                              <ImportAsTile>True</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="286" Width="31" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>images/rooms/zugTechnik/schieber.png</FileName>
+                              <OffsetX>155</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>65</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
+                              <ImportAsTile>True</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="287" Width="31" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>images/rooms/zugTechnik/schieber.png</FileName>
+                              <OffsetX>186</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>65</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
+                              <ImportAsTile>True</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="288" Width="31" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>images/rooms/zugTechnik/schieber.png</FileName>
+                              <OffsetX>217</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>65</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
+                              <ImportAsTile>True</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="289" Width="31" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>images/rooms/zugTechnik/schieber.png</FileName>
+                              <OffsetX>248</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>65</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
+                              <ImportAsTile>True</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="290" Width="31" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>images/rooms/zugTechnik/schieber.png</FileName>
+                              <OffsetX>279</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>65</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
+                              <ImportAsTile>True</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="291" Width="31" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>images/rooms/zugTechnik/schieber.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>65</OffsetY>
+                              <ImportHeight>65</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
+                              <ImportAsTile>True</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="292" Width="31" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>images/rooms/zugTechnik/schieber.png</FileName>
+                              <OffsetX>31</OffsetX>
+                              <OffsetY>65</OffsetY>
+                              <ImportHeight>65</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
+                              <ImportAsTile>True</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="293" Width="31" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>images/rooms/zugTechnik/schieber.png</FileName>
+                              <OffsetX>62</OffsetX>
+                              <OffsetY>65</OffsetY>
+                              <ImportHeight>65</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
+                              <ImportAsTile>True</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="294" Width="31" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>images/rooms/zugTechnik/schieber.png</FileName>
+                              <OffsetX>93</OffsetX>
+                              <OffsetY>65</OffsetY>
+                              <ImportHeight>65</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
+                              <ImportAsTile>True</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="295" Width="31" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>images/rooms/zugTechnik/schieber.png</FileName>
+                              <OffsetX>124</OffsetX>
+                              <OffsetY>65</OffsetY>
+                              <ImportHeight>65</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
+                              <ImportAsTile>True</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="296" Width="31" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>images/rooms/zugTechnik/schieber.png</FileName>
+                              <OffsetX>155</OffsetX>
+                              <OffsetY>65</OffsetY>
+                              <ImportHeight>65</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
+                              <ImportAsTile>True</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                        </Sprites>
+                      </SpriteFolder>
+                    </SubFolders>
+                    <Sprites />
                   </SpriteFolder>
                 </SubFolders>
                 <Sprites />
