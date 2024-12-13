@@ -3398,11 +3398,6 @@ return
           <Type>AudioChannel*</Type>
         </GlobalVariable>
         <GlobalVariable>
-          <DefaultValue>281</DefaultValue>
-          <Name>schieber</Name>
-          <Type>int</Type>
-        </GlobalVariable>
-        <GlobalVariable>
           <DefaultValue>0</DefaultValue>
           <Name>schieber_wert</Name>
           <Type>int</Type>
@@ -4564,6 +4559,86 @@ return
                         <Source>
                           <FileName>images/characters/nicola/nicola.png</FileName>
                           <OffsetX>88</OffsetX>
+                          <OffsetY>200</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>44</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="grab">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="297" Width="44" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/characters/nicola/nicola.png</FileName>
+                          <OffsetX>132</OffsetX>
+                          <OffsetY>200</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>44</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="298" Width="44" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/characters/nicola/nicola.png</FileName>
+                          <OffsetX>176</OffsetX>
+                          <OffsetY>200</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>44</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="299" Width="44" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/characters/nicola/nicola.png</FileName>
+                          <OffsetX>220</OffsetX>
+                          <OffsetY>200</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>44</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="300" Width="44" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/characters/nicola/nicola.png</FileName>
+                          <OffsetX>176</OffsetX>
+                          <OffsetY>200</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>44</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="301" Width="44" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/characters/nicola/nicola.png</FileName>
+                          <OffsetX>132</OffsetX>
                           <OffsetY>200</OffsetY>
                           <ImportHeight>100</ImportHeight>
                           <ImportWidth>44</ImportWidth>
@@ -8789,6 +8864,53 @@ return
                     <Flipped>False</Flipped>
                     <ID>1</ID>
                     <Image>273</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>9</ID>
+            <Name>vNicolaGrab</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>297</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>298</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>299</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>300</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>4</ID>
+                    <Image>301</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
